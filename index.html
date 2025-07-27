@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DriveNow - Car Selling Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1 class="logo">SP's Cars</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Cars</a>
+        <a href="#">Sell</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Buy & Sell Cars Easily</h2>
+      <p>Find the best deals on new and used cars near you.</p>
+      <a href="#cars" class="btn">Explore Cars</a>
+    </div>
+  </section>
+
+  <section class="search-bar">
+    <input type="text" placeholder="Search by brand, model..." />
+    <select>
+      <option>Fuel Type</option>
+      <option>Petrol</option>
+      <option>Diesel</option>
+      <option>Electric</option>
+    </select>
+    <select>
+      <option>Transmission</option>
+      <option>Manual</option>
+      <option>Automatic</option>
+    </select>
+    <button class="btn">Search</button>
+  </section>
+
+  <section id="cars" class="car-listings">
+    <h2>Featured Cars</h2>
+    <div class="car-grid">
+      <div class="car-card">
+        <img src="creata.jpg" alt="Car 1" />
+        <h3>Hyundai Creta 2023</h3>
+        <p>₹12.5 Lakh • Petrol • Manual</p>
+        <button class="btn">View Details</button>
+      </div>
+      <div class="car-card">
+        <img src="swift.png" alt="Car 2" />
+        <h3>Maruti Swift 2022</h3>
+        <p>₹7.8 Lakh • Diesel • Automatic</p>
+        <button class="btn">View Details</button>
+      </div>
+      <div class="car-card">
+        <img src="mahindra.png" alt="Car 3" />
+        <h3>Mahindra XUV700</h3>
+        <p>₹18.9 Lakh • Petrol • Manual</p>
+        <button class="btn">View Details</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-form">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Message..." rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 SP's Cars. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
